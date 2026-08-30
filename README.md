@@ -22,6 +22,13 @@ Modern vehicle manufacturing lines incur **$20,000+ per minute** during unplanne
 
 ---
 
+## Video Demonstration
+
+A 3-minute video presentation and technical walkthrough of the prototype is available at:  
+**[Watch the Prototype Demo Video](https://github.com/PeKkaPie95/DigitalTwin-AIL)** *(Replace with your YouTube / Google Drive link)*
+
+---
+
 ## System Architecture
 
 ```
