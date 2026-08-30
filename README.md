@@ -2,7 +2,7 @@
 
 > **Accenture Innovation Challenge 2026 — Round 2 (Prototype Round)**  
 > **Problem Track 4:** DigitalTwin.ai  
-> **Team:** [TEAM_NAME_PLACEHOLDER]
+> **Team:** excenture 
 
 [![Python 3.10](https://img.shields.io/badge/python-3.10-purple.svg)](https://www.python.org/downloads/release/python-3100/)
 [![Framework](https://img.shields.io/badge/framework-Streamlit%20%7C%20Plotly-blue.svg)](https://streamlit.io/)
@@ -25,7 +25,7 @@ Modern vehicle manufacturing lines incur **$20,000+ per minute** during unplanne
 ## Video Demonstration
 
 A 3-minute video presentation and technical walkthrough of the prototype is available at:  
-**[Watch the Prototype Demo Video](https://github.com/PeKkaPie95/DigitalTwin-AIL)** *(Replace with your YouTube / Google Drive link)*
+**[Watch the Prototype Demo Video](https://github.com/PeKkaPie95/DigitalTwin-AIL)** 
 
 ---
 
