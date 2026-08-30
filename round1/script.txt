@@ -1,0 +1,168 @@
+================================================================================
+VIDEO SCRIPT — Accenture Innovation Challenge 2026
+DigitalTwin.ai | Team P & M
+Target: 3 minutes | Format: Google Meet screen share recording
+================================================================================
+
+BEFORE YOU HIT RECORD:
+- Have the slides open and ready to share
+- Start on the cover slide (Slide 1)
+- Speak at a relaxed pace — slower than you think you need to
+- Each [bracket] is a stage direction, not something you say out loud
+
+--------------------------------------------------------------------------------
+
+[0:00 — SCREEN: Cover slide]
+
+P:
+Hello myself P and with me is M, and we have chosen Problem Statement 4,
+the Digital Twin for a vehicle assembly line.
+
+We want to start with the problem — because until you feel how resource depleting and expensive it is, 
+the solution doesn't land.
+
+--------------------------------------------------------------------------------
+
+[0:12 — SCREEN: Switch to Slide 3 — Problem Analysis]
+
+P:
+Every factory is divided into stations where each step of the process happens — the product moves along a conveyor belt from one to the next, much like the food manufacturing videos you may have seen online or on TV.
+
+Each station has a target pace it needs to hold — called a takt time — and as long as everyone keeps up, the whole line flows.
+
+The problem starts the moment one station doesn't.
+When Station 4 runs just two minutes slow — a worn tool, a drifting
+process parameter, anything imaginable or unimaginable — something very predictable happens.
+
+Stations behind it keep finishing on time. Cars pile up, waiting.
+Stations ahead of it run out of work entirely and sit idle.
+
+One local delay. Queue on one side, starvation on the other.
+That's the ripple.
+
+--------------------------------------------------------------------------------
+
+[0:42 — still Slide 3]
+
+M: The other thing is — bottlenecks don't sit still. The station that slows everything down on Monday might be completely fine on Tuesday, 
+just because they're building a different vehicle model that day. So a report at the end of a shift is always telling you what already happened. 
+It can't help with what's happening right now.
+
+Then there's the quality side of it. There's a well-known principle in manufacturing called the 1:10:100 rule. It basically says — the later you catch a mistake, the more expensive it gets. 
+Catch it right where it happened, quick fix, low cost. Catch it at the end of the line after the car is mostly assembled — 
+now you might have to take things apart just to get to the problem. 
+And if it reaches the customer, you're looking at warranty claims, potentially a recall. 
+The cost multiplies at every stage it goes undetected.
+
+What makes this worse is that a lot of older factory stations don't have much digital monitoring on them at all. 
+So the places where problems are most likely to slip through are also the places nobody's properly watching.
+
+--------------------------------------------------------------------------------
+
+[1:15 — SCREEN: Switch to Slide 4 — Proposed Solution]
+
+P:
+the first thing we want to say is we are NOT building.
+
+what i mean by that is we are not building a full 3D replica of the factory floor.
+Because geometry doesn't predict anything. Rhythm on the belt does.
+
+We call it the Assembly Intelligence Layer — three components, working as one.
+
+The first is the Line Mirror. Not a photograph of the factory — a live
+functional model tracking cycle time versus takt time per station,
+queue depth between stations, and each vehicle's process history
+as it moves down the line.
+
+--------------------------------------------------------------------------------
+
+[1:45 — still Slide 4]
+
+P:
+The second is the Flow Brain.
+It learns what normal looks like for each station from historical data.
+Then it watches for drift — not a hard alarm, but a gradual-creep detector
+that catches a station trending off before it becomes a failure.
+
+And it doesn't just flag it. It forecasts the consequence.
+"Station 5's buffer will empty in approximately 18 minutes."
+That's a warning you can act on — not a siren after the damage is done.
+
+--------------------------------------------------------------------------------
+
+[2:10 — still Slide 4]
+
+M:
+The third is the Defect Radar.
+Every vehicle on the line carries a rolling risk score — built from the
+parameters it passed through at each station.
+If Station 4 was drifting while your car went through it, that car's score
+goes up. When it crosses a threshold, it gets flagged for a targeted check
+at the next inspection gate.
+
+Not at the end of the line.
+That's the 1:10:100 rule applied in reverse —
+catching at cost one, not cost ten or cost a hundred.
+
+--------------------------------------------------------------------------------
+
+[2:35 — still Slide 4, bottom section]
+
+P:
+And for stations with no sensors — which is a real, common problem
+in older factories — we have three approaches.
+
+Neighbour inference — watch the stations on either side to estimate
+what the middle one is doing.
+
+Soft sensors — power draw, a basic camera feed, or a single
+accelerometer can stand in for a dedicated process sensor.
+
+And uncertainty modeling — instead of ignoring the gap, the system
+shows the probability. "68% likely normal, 32% running slow."
+Honest and actionable, instead of confidently wrong.
+
+--------------------------------------------------------------------------------
+
+[2:52 — SCREEN: Thank you slide]
+
+P:
+A comparable real-time bottleneck detection system improved
+Overall Equipment Effectiveness by over 30% in a year-long
+automotive powertrain pilot. That number is from published research.
+It's not theoretical.
+
+M:
+This was our approach to solve problem 4. Thank you for listening.
+
+--------------------------------------------------------------------------------
+
+[3:00 — END]
+
+================================================================================
+TIMING GUIDE
+================================================================================
+
+  0:00 - 0:12   P  --  Intro
+  0:12 - 0:42   P  --  The ripple problem (Slide 3)
+  0:42 - 1:15   M  --  Dynamic bottlenecks + 1:10:100 (Slide 3)
+  1:15 - 1:45   P  --  The idea + Line Mirror (Slide 4)
+  1:45 - 2:10   M  --  Flow Brain (Slide 4)
+  2:10 - 2:35   P  --  Defect Radar (Slide 4)
+  2:35 - 2:52   M  --  No sensor strategies (Slide 4)
+  2:52 - 3:00   P + M  --  Stat close + sign-off
+
+================================================================================
+TIPS FOR RECORDING ON GOOGLE MEET
+================================================================================
+
+- Turn on "Record meeting" before you start talking
+- The person sharing the slide should advance it on cue
+  (other person signals with a nod or a pre-agreed word)
+- Leave a 1-second pause every time you switch slides
+- Do one timed practice run before the real recording
+- If you stumble, pause and redo that sentence
+  (you can trim it in any basic video editor)
+- Speak to the camera, not at the slide
+
+================================================================================

@@ -1,0 +1,66 @@
+Hello, Ma'am some input needed.
+
+---
+
+The Problem in Simple Words
+
+Think of a car assembly line like a giant conveyor belt with 20 stations in a row. 
+If someone at station 3 gets stuck on a bolt for even 2 extra minutes:
+- Cars behind it start piling up.
+- Cars ahead run out of work and sit empty.
+- Stopping the line costs a crazy amount of money (easily $20k+ per minute).
+
+And if someone makes a small mistake at an early station and nobody catches it, the car keeps moving. By the time it reaches final quality check at the very end, fixing it means taking half the car apart.
+
+---
+
+Our Idea & What We Should Focus On
+
+Instead of trying to build a fancy 3D video game of the factory (which nobody actually needs and takes forever):
+
+1. Predict Bottlenecks Before They Happen
+Look at how fast each station is working and how many cars are waiting between them. Warn the team 20 minutes before a jam happens so someone can jump in and help.
+
+2. Catch Defects Super Early
+If a tool at station 2 shows weird pressure or loose torque, flag that specific car right away instead of waiting until the end of the line.
+
+3. Keep it Lightweight
+Skip the 3D graphics and complex physics. Just give the floor manager a simple screen/tablet with clear alerts.
+
+---
+
+How to Deal With Stations That Have No Sensors (Prompt asks this!)
+
+A lot of older factory stations don't have fancy digital sensors. We can easily solve this:
+
+- Cheap webcams: Just put a basic camera above the station that watches when a worker starts/finishes a car.
+- Check-in timestamps: If stations 3 and 5 scan barcodes, we can figure out how long station 4 took just from the gap between them.
+- Shift averages: Estimate based on how long that specific car model usually takes.
+
+---
+
+The Human Side (Super Important for Judges)
+
+Factory workers hate complicated software that slows them down or feels like spying.
+- Keep it super simple. No endless dashboards.
+- Give helpful suggestions, like: "Station 4 is getting backed up, send an extra pair of hands."
+- Make it help the workers pace their day rather than micromanaging them.
+
+---
+
+What We Need to Submit
+
+1. Just 3 Slides:
+- Slide 1: The problem (costly line jams and missed defects).
+- Slide 2: Our solution (smart flow tracking + cheap ways to handle no-sensor stations).
+- Slide 3: Why it matters (saves money, easy for floor workers to use).
+
+2. A 3-minute video explaining our idea.
+
+---
+
+Things for Us to Talk About
+
+- Do you like the idea of focusing more on stopping delays, catching defects, or both?
+- What do you think about the webcam idea for stations with no sensors?
+- Any ideas from your side on how floor managers and workers would prefer to use something like this?
