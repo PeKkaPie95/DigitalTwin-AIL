@@ -179,33 +179,4 @@ DigitalTwin-AIL/
 * **`stakeholder_views.py`**: Renders the **Stakeholder Intelligence** view: tailored role-based tabs for **Floor Supervisors** (tactical triage & dispatch), **Plant Operations Managers** (shift OEE, schedule attainment & Pareto analysis), and **Executive Leadership** (downtime cost savings, warranty reduction & payback analysis).
 
 ---
-
-## 3-Minute Video Demonstration Script
-
-Follow this structured script when recording your 3-minute evaluation video:
-
-| Timestamp | Section & Navigation | Talking Points |
-| :--- | :--- | :--- |
-| **0:00 – 0:40** | **Introduction & Line Mirror**<br>*(Sidebar: Single-Model, Normal Flow)* | - Introduce **DigitalTwin.ai** and the **Assembly Intelligence Layer (AIL)**.<br>- Highlight that modern plants lose $20,000/min in downtime and 30% of stations lack sensors.<br>- Show the live 40-station Line Mirror running at 60s takt pace. Point out uninstrumented stations (S7, S11) running on **Bayesian Neighbor Inference**. |
-| **0:40 – 1:25** | **Flow Brain & Bottleneck Prediction**<br>*(Sidebar: Inject Station 4 Bottleneck)* | - Switch Anomaly Injector to **Station 4 Bottleneck**.<br>- Navigate to **Flow Brain** tab.<br>- Show the **Two-Sided CUSUM chart** detecting tool wear micro-delays 15–20 minutes ahead.<br>- Highlight the automated **Time-to-Overflow alert** predicting line stoppage before buffer saturation. |
-| **1:25 – 2:15** | **Defect Radar & 1:10:100 Containment**<br>*(Sidebar: Inject Quality Gate Interception)* | - Switch Anomaly Injector to **Quality Gate Interception**.<br>- Navigate to **Defect Radar** tab.<br>- Show the quarantined vehicle $VH\text{-}0042$ at Quality Gate 1 (S12).<br>- Explain the **Digital Quality Passport** root-cause breakdown (torque + thermal anomalies).<br>- Explain the **1:10:100 Rule**: Catching flaws in-station ($1–$10) vs end-of-line teardown ($1,800) vs field recall ($10,000+). |
-| **2:15 – 3:00** | **Stakeholder Views & Enterprise ROI**<br>*(Navigate to Stakeholder Views)* | - Show the tailored tabs for **Floor Supervisor**, **Plant Manager**, and **Executive Leadership**.<br>- Highlight the business impact: **$2.4M projected annual downtime savings**, **78% reduction in bottleneck duration**, and a payback period of **under 1 month**. |
-
-> **Presenter & Evaluator Note:** When evaluating or recording anomaly scenarios (e.g., Station 4 Bottleneck or Quality Gate Interception), clicking **Pause (⏸)** freezes the line in its critical failure state. This allows presenters and judges to freeze-frame and closely examine the station telemetry, CUSUM drift charts, and vehicle risk passports without the conveyor advancing.
-
----
-
-## Video Demonstration Link
-
-A 3-minute video presentation and technical walkthrough of the prototype is available at:  
-`[LINK_TO_YOUTUBE_OR_DRIVE_DEMO_VIDEO]`
-
----
-
-## Team Details
-
-- **[Team Member 1 (Lead)]** — [College] | [Stream] | [Graduation Year]
-- **[Team Member 2]** — [College] | [Stream] | [Graduation Year]
-
----
 *Accenture Innovation Challenge 2026 — Round 2 Prototype Submission*
